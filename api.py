@@ -26,7 +26,7 @@ cache = TTLCache(maxsize=100, ttl=300)
 
 @app.route('/')
 def saudar():
-    return jsonify(HEADERS)
+    return jsonify("Seja bem-vindo a minha API!!!")
 
 @cached(cache)
 def obter_condominios():
