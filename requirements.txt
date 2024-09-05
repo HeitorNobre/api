@@ -1,0 +1,6 @@
+flask
+requests
+fuzzywuzzy
+cachetools
+python-dotenv
+gunicorn
